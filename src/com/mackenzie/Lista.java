@@ -78,6 +78,14 @@ public class Lista {
 
     }
 
+    public void mostrarLista() {
+        Nodo puntero = cabeza;
+        while(puntero != null) {
+            System.out.println(puntero.libro);
+            puntero = puntero.siguiente;
+        }
+    }
+
     public int contar() {
         return longitud;
     }

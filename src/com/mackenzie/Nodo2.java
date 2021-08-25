@@ -7,6 +7,7 @@ public class Nodo2 {
 
     public Nodo2(int dato) {
         this.dato = dato;
+        ref = null;
     }
 
     public int getDato() {
